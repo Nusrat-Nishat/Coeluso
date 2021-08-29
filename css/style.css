@@ -1,0 +1,557 @@
+/*
+Author
+
+Name: Nusrat Nishat;
+Email : nusratnishat565@gmail.com;
+*/
+
+
+/*
+=====Index=====
+
+1.Navbar
+2.banner
+3.feature
+4.icon 
+5.perspective 
+6.slide 
+7.discover 
+8.foot
+
+*/
+
+/*Global CSS*/
+
+
+
+/*Theme csss*/
+
+body{
+  
+}
+
+/*Navbar*/
+.navbar{
+  background-color: #0a2345;
+
+}
+
+
+.fa.fa-bars {
+    font-size: 1.5rem;
+    color: #285a9e;
+}
+.navbar-toggler.toggler-example {
+   cursor: pointer;
+   
+}
+/*Navbar*/
+
+
+/*banner*/
+section{
+  
+  
+}
+
+.banner{
+  background-color: #0a2345;
+  text-align: center;
+}
+
+.banner h1{
+    color: #285a9e;
+    
+}  
+
+
+.banner p{
+   color: #285a9e;
+   margin: 32px 103px;
+}
+
+.btn{
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 8px 34px;
+  margin: 57px;
+}
+
+
+.display{
+  background-color: #0a2345;
+}
+
+/*banner*/
+
+/*feature*/
+section{
+     
+}
+
+
+.feature{
+  background-color: #0a2345;
+}
+
+.feature h1{
+  color:#285a9e;
+    
+}  
+
+
+.feature p{
+  color: #607289;
+  margin: 32px 19px;
+  float: left;
+  font-size: 20px;
+}
+
+.feature button{
+  color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 8px 34px;
+   
+}
+/*feature*/
+
+
+/*icon*/
+section{
+     
+}
+
+.icon{
+  background-color: #091e3d;
+}
+
+.icon h1{
+    color:#285a9e; 
+    text-align: center; 
+}  
+
+.col-md-12 {
+    text-align: center; 
+}
+
+
+.parent{
+  position: relative;
+}
+
+.child1{
+  position: absolute;
+  text-align: left;
+  top: -840px;
+}
+
+
+.child1 h2{
+  font-size: 20px;
+  color: white;
+  margin: 27px 2px;
+}
+
+
+.child1 p{
+  color: #4f6079;
+  font-size: 15px;
+}
+
+
+.child2{
+    position: absolute;
+    text-align: left;
+    top: -840px;
+    right: -75px;
+}
+
+.child2 h2{
+  font-size: 20px;
+  color: white;
+  margin: 27px 2px;
+}
+
+.child2 p{
+  color: #4f6079;
+  font-size: 15px;
+}
+
+
+
+.child3{
+    position: absolute;
+    text-align: left;
+    top: -543px;
+}
+
+.child3 h2{
+  font-size: 20px;
+  color: white;
+  margin: 27px 2px;
+}
+
+.child3 p{
+  color: #4f6079;
+  font-size: 15px;
+}
+
+
+.child4{
+    position: absolute;
+    text-align: left;
+    top: -543px;
+     right: -75px;
+}
+
+.child4 h2{
+  font-size: 20px;
+  color: white;
+  margin: 27px 2px;
+}
+
+.child4 p{
+  color: #4f6079;
+  font-size: 15px;
+}
+/*icon*/
+
+
+
+/*perspective*/
+.perspective{
+    background-color: #061428;
+}
+
+
+.perspective h2{
+  font-size: 32px;
+  color: white;
+  margin: 27px 2px;
+}
+
+.perspective p{
+  color: #4f6079;
+  font-size: 25px;
+}
+
+.playlist{
+  position: relative;
+}
+
+.playlist img{
+  position: absolute;
+  top: -104px;
+  right: -380px;
+}
+/*perspective*/
+
+
+/*slide*/
+section{
+
+}
+
+.slide{
+  background-color: #061121;
+  color: #37485f;
+
+}
+
+.carousel{
+   position: relative;
+}
+
+
+.carousel-caption{
+  color: #37485f;
+  position: absolute;
+  top: 180px;
+}
+
+.carousel-caption p{
+   margin: 65px 0px;
+}
+
+.carousel-indicators button{
+   position: absolute;
+    top: -128px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #1e355a;
+}
+
+.one{
+  padding: 2px;
+}
+/*slide*/
+
+
+
+/*discover*/
+section{
+
+}
+
+.discover{
+  text-align: center;
+  background-color: #03070e;
+}
+
+
+.discover h3{
+  color: white;
+}
+
+.discover p{
+  color: #0a2041;
+  margin: 65px 0px;
+}
+
+/*discover*/
+
+
+
+
+/*foot*/
+footer{
+  background-color: #010102;
+  color: #133664;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  
+  display: inline;
+  font-size: 18px;
+  padding: 27px 5px;
+}
+
+
+.offset-md-4{
+  font-size: 16px; 
+  padding: 11px 5px;
+}
+/*foot*/
+
+
+
+
+
+
+
+
+
+
+
+/*media query*/
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 360px){
+
+
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width:  360px) and (max-width:602px){ 
+.row {
+  margin-right: 0px; 
+  margin-left: 0px;
+}
+
+section {
+ padding: 60px 0;
+}
+
+.banner h1 {
+  font-size: 25px;
+ }
+ 
+.banner p {
+  color: #285a9e;
+  font-size: 14px;
+  margin: 24px 64px;
+}
+
+.btn {
+  margin: 7px;
+}
+
+.feature h1 {
+  font-size: 25px;
+ }
+
+
+.icon h1 {
+  font-size: 25px;
+ }
+
+.feature p{
+  font-size: 10px;
+ }
+
+
+.display img{
+  width: 97%;
+}
+
+.feature img{
+  width: 75%;
+}
+
+.icon {
+  background-color: #091e3d;
+  height: 722px;
+}
+
+.img{
+  margin: 60px 0px;
+}
+
+.icon img{
+  width: 75%;
+}
+
+
+.child1{
+  top: -450px;
+}
+.child1 img{
+  width: 13%;
+}
+.child1 h2{
+  font-size: 40%;
+}
+.child1 p{
+  font-size: 31%;
+}
+
+
+.child2{
+  top: -300px;
+  right: 0px;
+}
+.child2 img{
+  width: 13%;
+}
+.child2 h2{
+  font-size: 40%;
+}
+.child2 p{
+  font-size: 31%;
+}
+
+.child3{
+  top: -160px;
+  right: 0px;
+}
+.child3 img{
+  width: 13%;
+}
+.child3 h2{
+  font-size: 40%;
+}
+.child3 p{
+  font-size: 31%;
+}
+
+
+
+.child4{
+  top: -14px;
+  right: 0px;
+}
+.child4 img{
+  width: 13%;
+}
+.child4 h2{
+  font-size: 40%;
+}
+.child4 p{
+  font-size: 31%;
+}
+
+.perspective{
+  height: 390px;
+}
+.perspective img{
+  width: 13%;
+}
+.perspective h2{
+  font-size: 40%;
+}
+.perspective p{
+  font-size: 31%;
+}
+
+.playlist img {
+  width: 75%;
+  top: -10px;
+  right: 1px;
+}
+
+.discover img{
+   width: 75%;
+}
+
+.carousel-item.active {
+    display: block;
+    position: relative;
+}
+.carousel-caption {
+  position: absolute;
+}
+
+.discover h3 {
+   font-size: 70%;
+}
+
+.discover p {
+  color: #0a2041;
+  font-size: 12px;
+  margin: 35px 0px;
+}
+
+
+ul li {
+    display: inline;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+
+}
+
+/*small device */
+
+/*Medium device start*/
+ 
+
+@media (min-width: 602.01px) and (max-width:728px){ 
+
+}
+
+	
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 728.01px){
+
+}
+
+/*large device end
